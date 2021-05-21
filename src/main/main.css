@@ -1,0 +1,32 @@
+.container {
+  margin: 2rem 0 0 0;
+  max-width: 100%;
+}
+.MainLeft {
+  order: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4rem;
+  z-index: 1000;
+  height: calc(100vh - 4rem);
+  background-color: #f7f7f7;
+  border-right: 1px solid #ececec;
+}
+.MainCenter {
+  order: 2;
+  padding: 2rem 4rem;
+}
+
+.MainRight {
+  order: 3;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4rem;
+  height: calc(100vh - 4rem);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 0.875rem;
+
+  background-color: #f7f7f7;
+  border-left: 1px solid #ececec;
+}

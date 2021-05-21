@@ -1,0 +1,4 @@
+.NavBar {
+  transition: box-shadow 0.25s ease 0s;
+  box-shadow: 0px 6px 7px 1px rgb(0 0 0 / 15%);
+}
